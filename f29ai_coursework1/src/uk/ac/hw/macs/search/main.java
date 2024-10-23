@@ -134,30 +134,30 @@ public class main {
 		// Grid 1 values
 		int startX1 = 0;
 		int startY1 = 0;
-		int goalX1 = 4;
-		int goalY1 = 3;
+		int goalX1 = 5;
+		int goalY1 = 2;
 
 		// Grid 2 values
 		int startX2 = 0;
 		int startY2 = 0;
-		int goalX2 = 4;
+		int goalX2 = 3;
 		int goalY2 = 4;
 
 		// Grid1 Black nodes
-		int[] blackX1 = new int[] { 2, 3, 3 };
-		int[] blackY1 = new int[] { 1, 2, 3 };
+		int[] blackX1 = new int[] { 1, 2, 2, 2};
+		int[] blackY1 = new int[] { 3, 0, 2, 3};
 
 		// Grid1 Grey nodes
-		int[] greyX1 = new int[] { 1, 1, 2, 4, 4 };
-		int[] greyY1 = new int[] { 0, 1, 2, 1, 2 };
+		int[] greyX1 = new int[] { 0, 0, 1, 3, 3, 3, 4, 4, 5 };
+		int[] greyY1 = new int[] { 1, 3, 1, 0, 1, 2, 2, 3, 3 };
 
 		// Grid2 Black nodes
-		int[] blackX2 = new int[] { 0, 1, 2, 2, 3 };
-		int[] blackY2 = new int[] { 3, 1, 1, 2, 1 };
+		int[] blackX2 = new int[] { 1, 2, 2, 2 };
+		int[] blackY2 = new int[] { 4, 0, 2, 4 };
 
 		// Grid2 Grey nodes
-		int[] greyX2 = new int[] { 0, 2, 4, 4 };
-		int[] greyY2 = new int[] { 1, 3, 1, 3 };
+		int[] greyX2 = new int[] { 0, 0, 0, 2, 3, 3, 4, 4 };
+		int[] greyY2 = new int[] { 1, 3, 4, 3, 0, 1, 3, 4 };
 
 		// Result
 		System.out.println("+-----------------------------+");
